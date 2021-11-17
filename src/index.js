@@ -12,7 +12,7 @@ import { store, persistor } from "./store/configureStore";
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter loading={null} persistor={persistor} >
+      <BrowserRouter basename={process.env.PUBLIC_URL} loading={null} persistor={persistor} >
         <App />
       </BrowserRouter>
     </Provider>

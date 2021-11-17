@@ -15,7 +15,7 @@ export const fetchMovie = (data) => (dispatch) => {
     })
 
     try {
-        axios.get(`http://www.omdbapi.com/?apikey=3571e05b&s=${data}&page=1`)
+        axios.get(`https://www.omdbapi.com/?apikey=3571e05b&s=${data}&page=1`)
             .then((res) => {
                 console.log('res: ', res);
                 if (res.status === 200 && res.data.Response === 'True') {
