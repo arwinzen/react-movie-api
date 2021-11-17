@@ -1,0 +1,22 @@
+.card_holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 15px 30px;
+    border-bottom: 1px solid rgba(0,0,0,0.6);
+}
+
+.img_holder {
+    width: 150px;
+    height: 150px;
+    background-color: cadetblue;
+    margin-right: 20px;
+}
+
+.details_holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}

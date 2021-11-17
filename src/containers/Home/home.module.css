@@ -1,0 +1,35 @@
+header {
+    width: 100vw;
+    height: 15vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    padding: 20px 15px;
+    border-radius: 30px;
+    border: none;
+    outline: 0;
+    width: 40%;
+    font-size: 22px;
+    margin: 0 25px;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: bisque;
+}
+
+button:focus, button:active {
+    background-color: burlywood;
+}
